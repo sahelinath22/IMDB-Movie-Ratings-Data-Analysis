@@ -1,10 +1,7 @@
-Project Title
 
-🎬 IMDB Movie Ratings Data Analysis (PostgreSQL)
+# 🎬 IMDB Movie Ratings Data Analysis (PostgreSQL)
 
-
-
-📌 Project Overview
+📌 **Project Overview**
 
 This project focuses on analyzing IMDB Movie Ratings data using PostgreSQL.
 
@@ -12,41 +9,39 @@ The analysis is performed through a series of SQL queries — including filterin
 
 The goal of this project is to demonstrate how SQL can be used effectively for data-driven insights and analytical reporting.
 
-
-🧩 Dataset Details
+🧩 **Dataset Details**
 
 The dataset contains IMDB movie records with key information such as:
 
-Column Name	                   Description
+**Column Name Description**
 
-Poster_Link	              URL link to movie poster
+Poster_Link URL link to movie poster
 
-Series_Title	          Movie title
+Series_Title Movie title
 
-Released_Year	          Year of release
+Released_Year Year of release
 
-Certificate	              Movie certification (e.g., U, UA, A)
+Certificate Movie certification (e.g., U, UA, A)
 
-Runtime	                  Duration of the movie
+Runtime Duration of the movie
 
-Genre	                  Movie genre (e.g., Drama, Action, Crime)
+Genre Movie genre (e.g., Drama, Action, Crime)
 
-IMDB_Rating	              IMDB rating score
+IMDB_Rating IMDB rating score
 
-Overview	              Short summary of the movie
+Overview Short summary of the movie
 
-Meta_Score	              Metacritic score
+Meta_Score Metacritic score
 
-Director	              Movie director
+Director Movie director
 
-Star1–Star4	              Main cast members
+Star1–Star4 Main cast members
 
-No_of_Votes	              Number of IMDB votes received
+No_of_Votes Number of IMDB votes received
 
-Gross	                  Box office gross revenue
+Gross Box office gross revenue
 
-
-🧠 Objectives
+🧠 **Objectives:**
 
 ✅Import and create the IMDB dataset table in PostgreSQL
 
@@ -68,29 +63,27 @@ Gross	                  Box office gross revenue
 
 👉🏻Display certificate-wise and genre-wise summaries
 
-
-🧾 SQL File Description
+🧾 **SQL File Description**
 
 File Name: IMDB MOVIE RATINGS Data Analysis.sql
 
 The file includes:
 
-1) Table Creation Script – Defines schema and data types
+1. Table Creation Script – Defines schema and data types
 
-2) Data Exploration Queries – Basic SELECT and filtering operations
+2. Data Exploration Queries – Basic SELECT and filtering operations
 
-3) Conditional Queries – Using WHERE, LIKE, IN, and IS NULL clauses
+3. Conditional Queries – Using WHERE, LIKE, IN, and IS NULL clauses
 
-4) Aggregation Queries – Using COUNT, SUM, MAX, MIN, and GROUP BY
+4. Aggregation Queries – Using COUNT, SUM, MAX, MIN, and GROUP BY
 
-5) Pivot-style Queries – Grouped insights and conditional aggregations
+5. Pivot-style Queries – Grouped insights and conditional aggregations
 
-6) String Functions Usage – Extracting substrings from director names
+6. String Functions Usage – Extracting substrings from director names
 
-7) Union Queries – Combining results for min/max comparisons
+7. Union Queries – Combining results for min/max comparisons
 
-
-📊 Key Insights Extracted
+📊 **Key Insights Extracted**
 
 1️⃣Total number of Drama and Crime genre movies
 
@@ -106,8 +99,7 @@ The file includes:
 
 7️⃣Identification of missing certificate data for data cleaning
 
-
-🧰 Tools & Technologies Used
+🧰 **Tools & Technologies Used**
 
 💠PostgreSQL – For database creation and query execution
 
@@ -115,30 +107,23 @@ The file includes:
 
 💠SQL Queries – For data manipulation and analytical insights
 
+📁 **Repository Contents**
 
-📁 Repository Contents
+├── IMDB MOVIE RATINGS Data Analysis.sql ├── IMDB_Movie_Ratings.xlsx ├── IMDB_Assignment_Snapshot.png └── README.md
 
+🚀 **How to Run the Project**
 
-├── IMDB MOVIE RATINGS Data Analysis.sql
-├── IMDB_Movie_Ratings.xlsx
-├── IMDB_Assignment_Snapshot.png
-└── README.md
+Install PostgreSQL (if not already installed).
 
+Open pgAdmin or any SQL editor.
 
-🚀 How to Run the Project
+Import or copy the contents of the SQL file.
 
-1) Install PostgreSQL (if not already installed).
+Run the scripts step-by-step to view outputs and insights.
 
-2) Open pgAdmin or any SQL editor.
+Optionally, load the Excel file into PostgreSQL for data verification.
 
-3) Import or copy the contents of the SQL file.
-
-4) Run the scripts step-by-step to view outputs and insights.
-
-5) Optionally, load the Excel file into PostgreSQL for data verification.
-
-
-🧩 Learning Outcomes
+🧩 **Learning Outcomes**
 
 ✅Strengthened SQL skills in data extraction and analysis
 
@@ -148,17 +133,21 @@ The file includes:
 
 ✅Experience in structuring SQL assignments for analysis and reporting
 
+👨‍💻 **Author**
 
-👨‍💻 Author
+Saheli Nath 
 
-Saheli Nath
-📘 Aspiring Data Analyst
-LinkedIn: https://www.linkedin.com/in/saheli-nath28/
-Email: nathsaheli1999@gmail.com
+📘 Aspiring Data Analyst 
 
-🧭 Guided by Satish Dhawale Sir, Founder of Skill Course
+**LinkedIn:** https://www.linkedin.com/in/saheli-nath28/ 
+
+**Email:** nathsaheli1999@gmail.com
+
+🧭 Guided by **Satish Dhawale** Sir, Founder of **Skill Course**
+
+⭐ **Acknowledgment**
+
+Special thanks to **Satish Dhawale** Sir for providing this assignment and mentoring throughout the learning process.
 
 
-⭐ Acknowledgment
 
-Special thanks to Satish Dhawale Sir for providing this assignment and mentoring throughout the learning process.
